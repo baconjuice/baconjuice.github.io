@@ -7,87 +7,97 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1894.6">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; min-height: 16.0px}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
-<p class="p1">&lt;style&gt;</p>
-<p class="p1">* {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>box-sizing: border-box;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">body {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-family: Arial;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-size: 17px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">#myVideo {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>position: fixed;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>right: 0;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>bottom: 0;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>min-width: 100%;<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>min-height: 100%;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.content {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>position: fixed;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>bottom: 0;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>background: rgba(0, 0, 0, 0.5);</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color: #f1f1f1;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding: 20px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">#myBtn {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>width: 200px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>font-size: 18px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>padding: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>border: none;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>background: #000;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color: #fff;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>cursor: pointer;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">#myBtn:hover {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>background: #ddd;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>color: black;</p>
-<p class="p1">}</p>
-<p class="p1">&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;video autoplay muted loop id=“Piano”&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;source src=“/video/Piano.mp4" type="video/mp4"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>Your browser does not support HTML5 video.</p>
-<p class="p1">&lt;/video&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;div class="content"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h1&gt;Heading&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Coming Soon! Moon Music Pro&lt;/p&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script&gt;</p>
-<p class="p1">var video = document.getElementById("myVideo");</p>
-<p class="p1">var btn = document.getElementById("myBtn");</p>
-<p class="p2"><br></p>
-<p class="p1">function myFunction() {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if (video.paused) {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>video.play();</p>
-<p class="p1"><span class="Apple-converted-space">    </span>btn.innerHTML = "Pause";</p>
-<p class="p1"><span class="Apple-converted-space">  </span>} else {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>video.pause();</p>
-<p class="p1"><span class="Apple-converted-space">    </span>btn.innerHTML = "Play";</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1">}</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;style&gt;</span></p>
+<p class="p1"><span class="s1">* {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>box-sizing: border-box;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">body {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>margin: 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>font-family: Arial;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>font-size: 17px;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">#myVideo {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>position: fixed;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>right: 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>bottom: 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>min-width: 100%;<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>min-height: 100%;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">.content {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>position: fixed;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>bottom: 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>background: rgba(0, 0, 0, 0.5);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>color: #f1f1f1;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>width: 100%;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>padding: 20px;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">#myBtn {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>width: 200px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>font-size: 18px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>padding: 10px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>border: none;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>background: #000;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>color: #fff;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>cursor: pointer;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">#myBtn:hover {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>background: #ddd;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>color: black;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">&lt;video autoplay muted loop id=“Piano”&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;source src=“/video/Piano.mp4" type="video/mp4"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>Your browser does not support HTML5 video.</span></p>
+<p class="p1"><span class="s1">&lt;/video&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">&lt;div class="content"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;h1&gt;Heading&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;p&gt;Coming Soon! Moon Music Pro&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">&lt;script&gt;</span></p>
+<p class="p1"><span class="s1">var video = document.getElementById("myVideo");</span></p>
+<p class="p1"><span class="s1">var btn = document.getElementById("myBtn");</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">function myFunction() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>if (video.paused) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>video.play();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>btn.innerHTML = "Pause";</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>} else {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>video.pause();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>btn.innerHTML = "Play";</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
 </body>
 </html>
